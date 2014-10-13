@@ -12,6 +12,7 @@ import array
 #fill in this variable with the posted data from the POST request
 postdata ="page=AwICB1VWVwRMUVVYVUxVUwAHTABWAFZMUVJTUlECWAVVVlVU&val=ZnJ0a2o="
 
+#parse the post data into a dictionary containing the parameter names & values
 variables = dict(item.split("=",1) for item in postdata.split("&"))
 
 xorkey = base64.b64decode(variables['val']) 
