@@ -10,7 +10,7 @@ import base64
 import array
 
 #fill in this variable with the posted data from the POST request
-postdata =""
+postdata ="page=AwICB1VWVwRMUVVYVUxVUwAHTABWAFZMUVJTUlECWAVVVlVU&val=ZnJ0a2o="
 
 
 xorkey = base64.b64decode(variables['val']) 
