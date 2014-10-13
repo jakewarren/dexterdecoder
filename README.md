@@ -8,5 +8,5 @@ decrypt the rest of the variables in the post data.
 
 To use:
 
-Copy and paste the post data into the "postdata" variable then execute the program to print the results.
+Copy and paste the encrypted post data into the "postdata" variable then execute the program to print the results.
 
